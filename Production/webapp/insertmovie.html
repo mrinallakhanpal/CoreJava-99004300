@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert Movie here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="text-align:center">
+<h1>Insert Movie Details</h1><br><br>
+<form action="./MovieServer" method="post">
+Movie Id<input type="number" name=mid required><br><br>
+Movie Name<input type="text" name="mname" required><br><br>
+Hero Name<input type="text" name="mhname" required><br><br>
+Heroine Name<input type="text" name="mhername" required><br><br>
+Date<input type="text" name="mdate" placeholder="YYYY-MM-DD" required><br><br>
+Language<input type="text" name="mlan" required><br><br>
+Length<input type="number" name=mlen required><br><br>
+Movie Type<input type="text" name="mtype" required><br><br>
+Production Id<input type="number" name=mpid required><br><br>
+<input type="submit" value="Add" class="btn btn-primary">
+</form>
+</body>
+</html>
